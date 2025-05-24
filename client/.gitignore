@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Build files
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# Cache
+.cache/
+
+# IDE configs
+.idea/
+
+# Passport config or sensitive files
+api/config/passport.js
+
+# Next time you accidentally generate something secret
+*.pem
+*.key
+*.crt
